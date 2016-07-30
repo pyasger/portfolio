@@ -4,16 +4,17 @@
     margin-right: auto;
     background-color: aquamarine;
 }
-body{
+
+body {
     position: relative;
     background-color: black
-        
-    
 }
+
 table {
     float: center;
     border="2";
 }
+
 footer {
     text-align: center;
     font-style: italic;
@@ -29,35 +30,28 @@ footer {
         float: none;
         text-align: center;
     }
- 
     nav ul {
         text-align: left;
     }
- 
     body {
         margin: 0;
         background: #FFFFFF;
         padding-top: 150px;
-         position: relative;
+        position: relative;
     }
     h2 {
         font-size: 2.5em;
     }
-    table{
-        
+    table {
         display: 2em;
-        
     }
 }
 
 @media only screen and (max-width: 37.5em) {
- 
-    body{
-         position: relative;
-        
+    body {
+        position: relative;
     }
     table {
         display: none;
     }
-
 }
